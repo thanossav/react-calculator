@@ -1,0 +1,29 @@
+.numpad_container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3px;
+
+  /* Take the remaining height */
+  flex-grow: 1;
+}
+
+.numpad_item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  user-select: none;
+
+  background-color: rgba(30, 30, 30, 0.5);
+  font-size: xx-large;
+}
+
+.numpad_item:hover {
+  background-color: rgba(30, 30, 30, 0.7);
+}
+
+@media screen and (max-width: 600px) {
+  .numpad_item:hover {
+    background-color: rgba(30, 30, 30, 0.5);
+  }
+}

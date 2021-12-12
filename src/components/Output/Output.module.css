@@ -1,0 +1,36 @@
+.output {
+  display: flex;
+
+  height: 20%;
+  min-height: 20%;
+
+  margin-bottom: 5px;
+  background-color: rgba(30, 30, 30, 0.5);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-right: 30px;
+}
+
+.smaller_text {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  width: 100%;
+  height: 30%;
+  font-size: 20px;
+}
+
+.main_text {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  width: 100%;
+  height: 70%;
+  font-size: 60px;
+}
